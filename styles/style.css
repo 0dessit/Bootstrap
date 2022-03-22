@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    228.57deg,
+    #bcbcc7 11.93%,
+    #ffffff 57.17%,
+    #d4d4d4 87.46%
+  );
+}
+
+a {
+  text-decoration: none;
+}
