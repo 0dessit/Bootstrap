@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .breadcrumb {
     flex-direction: column;
   }
