@@ -15,3 +15,28 @@ body {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  .breadcrumb {
+    flex-direction: column;
+  }
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  .breadcrumb-item + .breadcrumb-item {
+    padding-left: 0;
+  }
+
+  .btn-secondary {
+    margin-top: 5px;
+    border: none;
+  }
+  .btn-group > .btn-group.btn,
+  .btn-group > .btn {
+    border-radius: 0;
+  }
+}
